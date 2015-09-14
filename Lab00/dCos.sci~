@@ -1,0 +1,6 @@
+function[dc] = dCos(fs,f,dur,offset)
+    [lhs,rhs] = argn()
+    t = linspace(0,dur,fs*dur);
+    dc = cos(2*%pi*f*t - theta)
+endfunction
+
